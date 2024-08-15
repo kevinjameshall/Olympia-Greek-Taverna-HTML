@@ -1,0 +1,131 @@
+.nav-bar-nav-bar {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.nav-bar-container1 {
+  gap: 10%;
+  width: fit-content;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.nav-bar-navlink1 {
+  color: var(--dl-color-theme-neutral-light);
+  font-size: 28px;
+  transition: 0.3s;
+  font-family: "GreekFreakRegular";
+  font-weight: 700;
+  text-shadow: 2px 2px #000000;
+  text-decoration: none;
+}
+.nav-bar-navlink1:hover {
+  color: yellow;
+}
+.nav-bar-navlink2 {
+  color: var(--dl-color-theme-neutral-light);
+  font-size: 28px;
+  transition: 0.3s;
+  font-family: "GreekFreakRegular";
+  font-weight: 700;
+  text-shadow: 2px 2px #000000;
+  text-decoration: none;
+}
+.nav-bar-navlink2:hover {
+  color: yellow;
+}
+.nav-bar-navlink3 {
+  color: var(--dl-color-theme-neutral-light);
+  font-size: 28px;
+  transition: 0.3s;
+  font-family: "GreekFreakRegular";
+  font-weight: 700;
+  text-shadow: 2px 2px #000000;
+  text-decoration: none;
+}
+.nav-bar-navlink3:hover {
+  color: yellow;
+}
+.nav-bar-navlink4 {
+  color: #fbfaf9;
+  font-size: 28px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: "GreekFreakRegular";
+  font-weight: 700;
+  text-shadow: 2px 2px #000000;
+  text-decoration: none;
+}
+.nav-bar-navlink4:hover {
+  color: yellow;
+}
+.nav-bar-container2 {
+  gap: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.nav-bar-navlink5 {
+  fill: var(--dl-color-theme-neutral-light);
+  color: var(--dl-color-theme-neutral-light);
+  font-size: 28px;
+  transition: 0.3s;
+  font-family: "GreekFreakRegular";
+  font-weight: 700;
+  text-shadow: 2px 2px #000000;
+  text-decoration: none;
+}
+.nav-bar-navlink5:hover {
+  color: yellow;
+}
+.nav-bar-navlink6 {
+  fill: var(--dl-color-theme-neutral-light);
+  color: var(--dl-color-theme-neutral-light);
+  font-size: 28px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: "GreekFreakRegular";
+  font-weight: 700;
+  text-shadow: 2px 2px #000000;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.nav-bar-navlink6:hover {
+  color: yellow;
+}
+
+
+
+
+@media(max-width: 1200px) {
+  .nav-bar-nav-bar {
+    gap: var(--dl-space-space-halfunit);
+  }
+}
+@media(max-width: 991px) {
+  .nav-bar-nav-bar {
+    flex-wrap: wrap;
+  }
+  .nav-bar-container1 {
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media(max-width: 767px) {
+  .nav-bar-container1 {
+    height: fit-content;
+  }
+  .nav-bar-container2 {
+    width: fit-content;
+    height: fit-content;
+  }
+}

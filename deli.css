@@ -1,0 +1,2990 @@
+.con-banner-con-banner-wrapper {
+  display: contents;
+}
+.con-banner-con-banner {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  opacity: inherit;
+  z-index: 100;
+  position: fixed;
+  align-self: stretch;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: var(--dl-color-theme-primary2);
+}
+.con-banner-icon1 {
+  width: 24px;
+  height: 24px;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-unit);
+}
+.con-banner-link1 {
+  align-self: center;
+  padding-left: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.con-banner-text1 {
+  align-self: center;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+}
+.con-banner-link2 {
+  font-size: 16px;
+  align-self: center;
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.con-banner-icon3 {
+  width: 24px;
+  height: 24px;
+  align-self: center;
+}
+.con-banner-text4 {
+  align-self: center;
+}
+
+
+@media(max-width: 991px) {
+  .con-banner-icon1 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .con-banner-con-banner {
+    height: fit-content;
+  }
+  .con-banner-icon1 {
+    align-self: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .con-banner-link1 {
+    align-self: center;
+  }
+  .con-banner-icon3 {
+    align-self: center;
+  }
+}
+
+.nav-bar-nav-bar-wrapper {
+  display: contents;
+}
+.nav-bar-nav-bar {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.nav-bar-container1 {
+  gap: 10%;
+  width: fit-content;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.nav-bar-navlink1 {
+  color: var(--dl-color-theme-neutral-light);
+  font-size: 28px;
+  transition: 0.3s;
+  font-family: "GreekFreakRegular";
+  font-weight: 700;
+  text-shadow: 2px 2px #000000;
+  text-decoration: none;
+}
+.nav-bar-navlink1:hover {
+  color: yellow;
+}
+.nav-bar-navlink2 {
+  color: var(--dl-color-theme-neutral-light);
+  font-size: 28px;
+  transition: 0.3s;
+  font-family: "GreekFreakRegular";
+  font-weight: 700;
+  text-shadow: 2px 2px #000000;
+  text-decoration: none;
+}
+.nav-bar-navlink2:hover {
+  color: yellow;
+}
+.nav-bar-navlink3 {
+  color: var(--dl-color-theme-neutral-light);
+  font-size: 28px;
+  transition: 0.3s;
+  font-family: "GreekFreakRegular";
+  font-weight: 700;
+  text-shadow: 2px 2px #000000;
+  text-decoration: none;
+}
+.nav-bar-navlink3:hover {
+  color: yellow;
+}
+.nav-bar-navlink4 {
+  color: #fbfaf9;
+  font-size: 28px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: "GreekFreakRegular";
+  font-weight: 700;
+  text-shadow: 2px 2px #000000;
+  text-decoration: none;
+}
+.nav-bar-navlink4:hover {
+  color: yellow;
+}
+.nav-bar-container2 {
+  gap: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.nav-bar-navlink5 {
+  fill: var(--dl-color-theme-neutral-light);
+  color: var(--dl-color-theme-neutral-light);
+  font-size: 28px;
+  transition: 0.3s;
+  font-family: "GreekFreakRegular";
+  font-weight: 700;
+  text-shadow: 2px 2px #000000;
+  text-decoration: none;
+}
+.nav-bar-navlink5:hover {
+  color: yellow;
+}
+.nav-bar-navlink6 {
+  fill: var(--dl-color-theme-neutral-light);
+  color: var(--dl-color-theme-neutral-light);
+  font-size: 28px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: "GreekFreakRegular";
+  font-weight: 700;
+  text-shadow: 2px 2px #000000;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.nav-bar-navlink6:hover {
+  color: yellow;
+}
+
+
+
+
+@media(max-width: 1200px) {
+  .nav-bar-nav-bar {
+    gap: var(--dl-space-space-halfunit);
+  }
+}
+@media(max-width: 991px) {
+  .nav-bar-nav-bar {
+    flex-wrap: wrap;
+  }
+  .nav-bar-container1 {
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media(max-width: 767px) {
+  .nav-bar-container1 {
+    height: fit-content;
+  }
+  .nav-bar-container2 {
+    width: fit-content;
+    height: fit-content;
+  }
+}
+
+.deli-container100 {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #D9D9D9;
+}
+.deli-banner-granite {
+  width: 100%;
+  height: 388px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/deli-1500w.jpg");
+  background-position: center;
+}
+.deli-container101 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 70%;
+  display: flex;
+  max-width: 70%;
+  min-width: 440px;
+  align-items: center;
+  flex-direction: column;
+}
+.deli-container102 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container103 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.deli-text100 {
+  width: fit-content;
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+}
+.deli-text101 {
+  width: fit-content;
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+}
+.deli-container104 {
+  gap: 5%;
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-self: flex-end;
+  align-items: flex-start;
+  justify-content: center;
+}
+.deli-text102 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-container105 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container106 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.deli-text105 {
+  width: fit-content;
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+}
+.deli-text106 {
+  width: fit-content;
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+}
+.deli-container107 {
+  gap: 5%;
+  flex: 0 0 auto;
+  width: fit-contnet;
+  height: 100%;
+  display: flex;
+  align-self: flex-end;
+  align-items: flex-start;
+  justify-content: center;
+}
+.deli-text107 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text108 {
+  font-style: italic;
+}
+.deli-container108 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container109 {
+  flex: 0 0 auto;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.deli-text110 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text111 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container110 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  justify-content: center;
+}
+.deli-text112 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text113 {
+  font-style: italic;
+}
+.deli-container111 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container112 {
+  flex: 0 0 auto;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.deli-container113 {
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+}
+.deli-text115 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text116 {
+  flex-grow: 1;
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container114 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.deli-text117 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text118 {
+  font-style: italic;
+}
+.deli-container115 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container116 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.deli-text120 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text121 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container117 {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.deli-text122 {
+  font-size: 22px;
+}
+.deli-text123 {
+  font-style: italic;
+}
+.deli-container118 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container119 {
+  flex: 0 0 auto;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.deli-text125 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text126 {
+  font-size: 18px;
+  align-self: center;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+}
+.deli-container120 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.deli-text127 {
+  font-size: 22px;
+}
+.deli-text128 {
+  font-style: italic;
+}
+.deli-container121 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container122 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.deli-text130 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text131 {
+  font-size: 18px;
+  align-self: center;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+}
+.deli-container123 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.deli-text132 {
+  font-size: 22px;
+}
+.deli-text133 {
+  font-style: italic;
+}
+.deli-container124 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container125 {
+  flex: 0 0 auto;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.deli-text135 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text136 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container126 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-text137 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text138 {
+  font-style: italic;
+}
+.deli-container127 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container128 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.deli-text140 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text141 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container129 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.deli-text142 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text143 {
+  font-style: italic;
+}
+.deli-container130 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container131 {
+  flex: 0 0 auto;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.deli-text145 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text146 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container132 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  justify-content: center;
+}
+.deli-text147 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text148 {
+  font-style: italic;
+}
+.deli-container133 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container134 {
+  flex: 0 0 auto;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.deli-text150 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text151 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container135 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-self: flex-end;
+  align-items: flex-start;
+  justify-content: center;
+}
+.deli-text152 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text153 {
+  font-style: italic;
+}
+.deli-container136 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.deli-container137 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  justify-content: space-between;
+}
+.deli-container138 {
+  flex: 0 0 auto;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.deli-text155 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text156 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container139 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.deli-text157 {
+  font-size: 22px;
+}
+.deli-text160 {
+  font-size: 22px;
+}
+.deli-container140 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-self: flex-end;
+  align-items: flex-start;
+  justify-content: center;
+}
+.deli-text163 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+}
+.deli-container141 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  justify-content: space-between;
+}
+.deli-container142 {
+  flex: 0 0 auto;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.deli-text164 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text165 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container143 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-self: flex-end;
+  align-items: flex-start;
+  justify-content: center;
+}
+.deli-text166 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text167 {
+  font-style: italic;
+}
+.deli-container144 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container145 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.deli-text169 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text170 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container146 {
+  gap: var(--dl-space-space-halfunit);
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.deli-text171 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text172 {
+  font-style: italic;
+}
+.deli-container147 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container148 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.deli-text174 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text175 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container149 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-text176 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text177 {
+  font-style: italic;
+}
+.deli-container150 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container151 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.deli-text179 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text180 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container152 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.deli-text181 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text182 {
+  font-style: italic;
+}
+.deli-container153 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container154 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.deli-text184 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text185 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container155 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.deli-text186 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text187 {
+  font-style: italic;
+}
+.deli-text189 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text190 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container156 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container157 {
+  flex: 0 0 auto;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.deli-text192 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text193 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container158 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.deli-text194 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text195 {
+  font-style: italic;
+}
+.deli-text197 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text198 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container159 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container160 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.deli-text200 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text201 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container161 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.deli-text202 {
+  font-size: 22px;
+}
+.deli-text203 {
+  font-style: italic;
+}
+.deli-container162 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container163 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.deli-text205 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text206 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container164 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-text207 {
+  font-size: 22px;
+}
+.deli-text208 {
+  font-style: italic;
+}
+.deli-container165 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container166 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.deli-text210 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text211 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container167 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-text212 {
+  font-size: 22px;
+}
+.deli-text213 {
+  font-style: italic;
+}
+.deli-container168 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container169 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text215 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-container170 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-container171 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text216 {
+  font-size: 22px;
+}
+.deli-text217 {
+  font-style: italic;
+}
+.deli-container172 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container173 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text219 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-container174 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-container175 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text220 {
+  font-size: 22px;
+}
+.deli-text221 {
+  font-style: italic;
+}
+.deli-container176 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container177 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text223 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-container178 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-text224 {
+  font-size: 22px;
+}
+.deli-text225 {
+  font-style: italic;
+}
+.deli-text227 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text228 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container179 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container180 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text230 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-container181 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-container182 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text231 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text232 {
+  font-style: italic;
+}
+.deli-text234 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text235 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container183 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text237 {
+  font-size: 22px;
+}
+.deli-text238 {
+  font-style: italic;
+}
+.deli-text240 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text241 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container184 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container185 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text243 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-container186 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-text244 {
+  font-size: 22px;
+}
+.deli-text245 {
+  font-style: italic;
+}
+.deli-text247 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text248 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container187 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container188 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text250 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-container189 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-container190 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text251 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text252 {
+  font-style: italic;
+}
+.deli-text254 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text255 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container191 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text257 {
+  font-size: 22px;
+}
+.deli-text258 {
+  font-style: italic;
+}
+.deli-text260 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text261 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container192 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container193 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text263 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-container194 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-text264 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text265 {
+  font-style: italic;
+}
+.deli-text267 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text268 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container195 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container196 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text270 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-container197 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-text271 {
+  font-size: 22px;
+}
+.deli-text272 {
+  font-style: italic;
+}
+.deli-text274 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text275 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container198 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container199 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text277 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-container200 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-text278 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text279 {
+  font-style: italic;
+}
+.deli-text281 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text282 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container201 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container202 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text284 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-container203 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-text285 {
+  font-size: 22px;
+}
+.deli-text286 {
+  font-style: italic;
+}
+.deli-text288 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text289 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container204 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container205 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text291 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-container206 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-container207 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text292 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text293 {
+  font-style: italic;
+}
+.deli-text295 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text296 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container208 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text298 {
+  font-size: 22px;
+}
+.deli-text299 {
+  font-style: italic;
+}
+.deli-text301 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text302 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container209 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container210 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text304 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-container211 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-text305 {
+  font-size: 22px;
+}
+.deli-text306 {
+  font-style: italic;
+}
+.deli-text308 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text309 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container212 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container213 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text311 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-container214 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-text312 {
+  font-size: 22px;
+}
+.deli-text313 {
+  font-style: italic;
+}
+.deli-text315 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text316 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container215 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container216 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text318 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-container217 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-text319 {
+  font-size: 22px;
+}
+.deli-text320 {
+  font-style: italic;
+}
+.deli-text322 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text323 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container218 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container219 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text325 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-container220 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-text326 {
+  font-size: 22px;
+}
+.deli-text327 {
+  font-style: italic;
+}
+.deli-text329 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text330 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container221 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container222 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text332 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-container223 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-container224 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text333 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text334 {
+  font-style: italic;
+}
+.deli-text336 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text337 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container225 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text339 {
+  font-size: 22px;
+}
+.deli-text340 {
+  font-style: italic;
+}
+.deli-text342 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text343 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container226 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container227 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text345 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-container228 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-container229 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text346 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text347 {
+  font-style: italic;
+}
+.deli-text349 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text350 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container230 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text352 {
+  font-size: 22px;
+}
+.deli-text353 {
+  font-style: italic;
+}
+.deli-text355 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text356 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container231 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container232 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text358 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-container233 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-container234 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text359 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text360 {
+  font-style: italic;
+}
+.deli-text362 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text363 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container235 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text365 {
+  font-size: 22px;
+}
+.deli-text366 {
+  font-style: italic;
+}
+.deli-text368 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text369 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container236 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container237 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text371 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-container238 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-container239 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text372 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text373 {
+  font-style: italic;
+}
+.deli-text375 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text376 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container240 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text378 {
+  font-size: 22px;
+}
+.deli-text379 {
+  font-style: italic;
+}
+.deli-text381 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text382 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container241 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container242 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text384 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-container243 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-container244 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text385 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text386 {
+  font-style: italic;
+}
+.deli-text388 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text389 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container245 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text391 {
+  font-size: 22px;
+}
+.deli-text392 {
+  font-style: italic;
+}
+.deli-text394 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text395 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container246 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container247 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text397 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text398 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container248 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-container249 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text399 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text400 {
+  font-style: italic;
+}
+.deli-text402 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text403 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container250 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text405 {
+  font-size: 22px;
+}
+.deli-text406 {
+  font-style: italic;
+}
+.deli-text408 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text409 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container251 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container252 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text411 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text412 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container253 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-container254 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text413 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text414 {
+  font-style: italic;
+}
+.deli-text416 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text417 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container255 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text419 {
+  font-size: 22px;
+}
+.deli-text420 {
+  font-style: italic;
+}
+.deli-text422 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text423 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container256 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container257 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text425 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text426 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container258 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-container259 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text427 {
+  font-size: 22px;
+  align-self: flex-start;
+}
+.deli-text428 {
+  font-style: italic;
+}
+.deli-text430 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text431 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container260 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+}
+.deli-text433 {
+  font-size: 22px;
+}
+.deli-text434 {
+  font-style: italic;
+}
+.deli-text436 {
+  font-size: 22px;
+  align-self: flex-end;
+}
+.deli-text437 {
+  font-size: 18px;
+  font-style: italic;
+}
+.deli-container261 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container262 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text439 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text440 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container263 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-text441 {
+  font-size: 22px;
+}
+.deli-text442 {
+  font-style: italic;
+}
+.deli-container264 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container265 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text444 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text445 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container266 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-text446 {
+  font-size: 22px;
+}
+.deli-text447 {
+  font-style: italic;
+}
+.deli-container267 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deli-container268 {
+  flex: 0 0 auto;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.deli-text449 {
+  font-size: 22px;
+  align-self: flex-start;
+  font-style: italic;
+  font-family: "GreekFreakRegular";
+  font-weight: 400;
+  padding-right: var(--dl-space-space-unit);
+}
+.deli-text450 {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.deli-container269 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.deli-text451 {
+  font-size: 22px;
+}
+.deli-text452 {
+  font-style: italic;
+}
+@media(max-width: 767px) {
+  .deli-container101 {
+    width: 100%;
+  }
+  .deli-container102 {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .deli-container101 {
+    width: 90%;
+  }
+  .deli-container102 {
+    width: 100%;
+    align-self: center;
+    justify-content: space-between;
+  }
+  .deli-container104 {
+    width: fit-content;
+    justify-content: center;
+  }
+  .deli-container105 {
+    width: 100%;
+    align-self: center;
+    justify-content: space-between;
+  }
+  .deli-text105 {
+    font-size: 22px;
+    font-style: italic;
+    font-family: GreekFreakRegular;
+    font-weight: 400;
+  }
+  .deli-text106 {
+    font-size: 18px;
+    font-style: italic;
+    font-family: Arial;
+    font-weight: 400;
+  }
+  .deli-container107 {
+    gap: 0;
+    width: fit-content;
+    justify-content: space-between;
+  }
+  .deli-text110 {
+    font-size: 22px;
+    font-style: italic;
+    font-family: GreekFreakRegular;
+    font-weight: 400;
+  }
+  .deli-text111 {
+    font-size: 18px;
+    font-style: italic;
+    font-family: Arial;
+    font-weight: 400;
+  }
+  .deli-container111 {
+    width: 100%;
+    align-self: center;
+    justify-content: space-between;
+  }
+  .deli-container112 {
+    width: fit-content;
+  }
+  .deli-text115 {
+    font-size: 22px;
+    font-style: italic;
+    font-family: GreekFreakRegular;
+    font-weight: 400;
+  }
+  .deli-container114 {
+    width: fit-content;
+    justify-content: space-between;
+  }
+  .deli-container115 {
+    width: 100%;
+    align-self: center;
+    justify-content: space-between;
+  }
+  .deli-container116 {
+    width: auto;
+  }
+  .deli-container117 {
+    justify-content: center;
+  }
+  .deli-container118 {
+    width: 100%;
+    align-self: center;
+    justify-content: space-between;
+  }
+  .deli-container119 {
+    width: fit-content;
+  }
+  .deli-container120 {
+    width: fit-content;
+  }
+  .deli-container121 {
+    width: 100%;
+    height: fit-content;
+    align-self: center;
+  }
+  .deli-container137 {
+    padding-top: 0px;
+  }
+  .deli-container141 {
+    padding-top: 0px;
+  }
+}
